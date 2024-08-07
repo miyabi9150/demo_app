@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 # 12.データ分析関連のウィジェット
 df = pd.read_csv('./data/Temp.csv', index_col='月')
